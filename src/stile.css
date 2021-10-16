@@ -1,0 +1,70 @@
+.root{
+    -fx-padding: 50;
+    -fx-alignment: center;
+    -fx-background-color: orange;
+}
+
+.label{
+	-fx-font-size: 20px;
+	-fx-font-weight: bold;
+	-fx-alignment: center;
+}
+
+.button{
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+}
+
+.button:hover{
+    -fx-background-color:  orange;
+}
+
+.cell {
+    -fx-background-color:  black, -fx-base ;
+    -fx-background-insets: 0, 0 ;
+    -fx-padding: 5px ;
+}
+
+.cell:right {
+    -fx-background-insets: 0, 0 1 0 0 ;
+}
+
+.cell:bottom {
+    -fx-background-insets: 0, 0 0 1 0 ;
+}
+
+.cell:right:bottom {
+    -fx-background-insets: 0, 0 1 1 0 ;
+}
+
+.cell .text-field {
+    -fx-pref-width: 3em ;
+    -fx-pref-height: 3em ;
+}
+// tabella
+
+.table-row-cell{
+    -fx-cell-size: 50px;
+    -fx-font-size: 18px;
+
+}
+
+.table-row-cell:hover{
+    -fx-background-color:  orange;
+}
+
+.table-column {
+  -fx-alignment: CENTER;
+}
+
+.table-cell {
+    -fx-alignment: CENTER;
+    //-fx-background-color: black
+}
+
+.table-view .scroll-bar * {
+    -fx-min-height: 0;
+    -fx-pref-height: 0;
+    -fx-max-height: 0;
+}

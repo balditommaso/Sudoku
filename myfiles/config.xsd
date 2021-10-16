@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="ParametriConfigurazione">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="usernameDB" type="xs:string" />
+                <xs:element name="passwordDB" type="xs:string" />
+                <xs:element name="altezzaFinestra" type="xs:int" />
+                <xs:element name="larghezzaFinestra" type="xs:int" />
+                <xs:element name="malus" type="xs:int" />
+                <xs:element name="numeroRigheClassifica" type="xs:int" />
+                <xs:element name="numeroCelleNascoste" type="xs:int" />
+                <xs:element name="soluzioneSudoku" type="xs:string" />
+            </xs:sequence>
+            <xs:attribute name="indirizzoIpDB" type="xs:string" />
+            <xs:attribute name="portaDB" type="xs:short" />
+            <xs:attribute name="indirizzoIpServerDiLog" type="xs:string" />
+            <xs:attribute name="indirizzoIpClient" type="xs:string" />
+            <xs:attribute name="portaServerDiLog" type="xs:short" />
+        </xs:complexType>
+    </xs:element>
+</xs:schema> 
